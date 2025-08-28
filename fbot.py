@@ -1,7 +1,7 @@
 
 # === НАСТРОЙКИ ===
-TELEGRAM_TOKEN = "8371917664:AAGYEmtMn8Z25n6NOVn4wQWVlwTcC2q-mX0"  # Замени
-HF_TOKEN = "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"    # Замени
+#TELEGRAM_TOKEN = "XXX"  # Замени
+#HF_TOKEN = "YYY"    # Замени
 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
@@ -129,4 +129,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
